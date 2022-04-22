@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #000406;
+
+}
+
+hr {
+  border: dotted #EDE0BD 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 50px auto 0px auto;
+  font-family: 'Whisper', cursive;
+  color: #E0FFFF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  font-weight: normal;
+  color: #EDE0BD;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #9F9975;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #EDE0BD;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9F9975;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #9F9975;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.menu{
+  text-align: right;
+  padding: 30px 0 30px;
+  background-color: #366D74;
+  color: white;
+}
+
+.menu-link{
+  padding: 0 20px;
+  margin-right: 50px;
+}
+
+.top-container {
+  background-image: url('https://cdn2.outdoorphotographer.com/2019/08/Brian_Matiash_Layers_01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 0 100px;
+}
+
+.top-words{
+    color: #E0FFFF;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #366D74;
+  color: white;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 450px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.btn {
+  background: #EDE0BD;
+  background-image: -webkit-linear-gradient(top, #EDE0BD, #9F9975);
+  background-image: -moz-linear-gradient(top, #EDE0BD, #9F9975);
+  background-image: -ms-linear-gradient(top, #EDE0BD, #9F9975);
+  background-image: -o-linear-gradient(top, #EDE0BD, #9F9975);
+  background-image: linear-gradient(to bottom, #EDE0BD, #9F9975);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9F9975;
+  background-image: -webkit-linear-gradient(top, #9F9975, #EDE0BD);
+  background-image: -moz-linear-gradient(top, #9F9975, #EDE0BD);
+  background-image: -ms-linear-gradient(top, #9F9975, #EDE0BD);
+  background-image: -o-linear-gradient(top, #9F9975, #EDE0BD);
+  background-image: linear-gradient(to bottom, #9F9975, #EDE0BD);
+  text-decoration: none;
+}
+
+.code-image{
+  float: left;
+  margin-right: 30px;
+}
+
+.photo-image{
+  float: right;
+  margin-left: 30px;
+}
+
+.draw-image{
+  float: left;
+  margin-right: 30px;
+}
+
+
+/*
+16px = 100% = 1em
+
+
+*/
